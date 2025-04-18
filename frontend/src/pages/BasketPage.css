@@ -1,0 +1,113 @@
+.basket-page {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.basket-page h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.basket-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.basket-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+.basket-item-details {
+    flex-grow: 1;
+}
+
+.basket-item-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.basket-item-quantity {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.basket-item-quantity label {
+    margin-right: 5px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.basket-item-quantity input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.basket-item-actions {
+    margin-left: 20px;
+}
+
+.basket-item-actions button {
+    background-color: #d9534f; /* Example remove button color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.basket-item-actions button:hover {
+    background-color: #c9302c;
+}
+
+.basket-total {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.basket-total strong {
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+.basket-checkout-button {
+    background-color: #5cb85c; /* Example checkout button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.basket-checkout-button:hover {
+    background-color: #4cae4c;
+}
+
+.basket-empty {
+    color: #777;
+    font-style: italic;
+}

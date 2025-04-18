@@ -1,0 +1,98 @@
+.home-page {
+    padding: 2rem;
+}
+
+.hero-banner {
+    background-color: #f0f0f0;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.shop-now-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.featured-categories h2,
+.new-arrivals h2,
+.bestsellers h2 {
+    margin-bottom: 1.5rem;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.category-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.book-item {
+    text-align: center;
+}
+
+.book-item img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.book-item h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.book-item .author,
+.book-item .price {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.2rem;
+}
+
+.book-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}

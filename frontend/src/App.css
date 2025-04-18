@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 1rem;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.main-nav a:hover {
+  color: #ddd;
+}
+
+.cart-icon a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.cart-icon a:hover {
+  color: #ddd;
+}
+
+.app-main {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: white;
+}
+
+.app-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Basic styling for pages (can be expanded in individual page CSS files) */
+h1, h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Placeholder for product listings (you'll create a separate component later) */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.product-item h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.product-item .price {
+  color: green;
+  font-weight: bold;
+}

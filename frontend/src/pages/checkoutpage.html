@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkoutpage.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Checkout</h2>
+        <form id="checkoutForm">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State/Province:</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="postalCode">Postal Code:</label>
+                <input type="text" id="postalCode" name="postalCode" required>
+            </div>
+
+            <div class="payment-details">
+                <h3>Payment Details</h3>
+                <div class="form-group">
+                    <label for="cardNumber">Card Number:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiryDate">Expiry Date (MM/YY):</label>
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="number" id="cvv" name="cvv" required>
+                </div>
+            </div>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <script src="checkoutpage.js"></script>
+</body>
+</html>
